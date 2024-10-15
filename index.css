@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.language-list-container{
+    margin-top: 100px;
+    padding: 10px;
+    max-width: 1000px;
+   
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensures all items stretch to the same height */
+    border: 1px solid grey;
+    gap: 16px;
+    border: 1px solid grey;
+}
+
+.first-list,  .second-list {
+    flex: 1; /* Ensures all three containers are equal in width */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 4px; /* Optional: spacing around each container */
+    font-size: 24px;
+}
+.button-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
